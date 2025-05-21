@@ -3,7 +3,29 @@
     box-sizing: border-box;
     margin: auto
 }
+#pseudo {
+    /* l border, el margin, el box-shadow */
+    width: 250px;
+    border: solid 10px black;
+    margin: 50px;
+    box-shadow: 0 0 75px aqua;
+    background-color: red;
+    padding: 40px;
+    box-shadow: 50px white;
+}
 
+#pseudo:hover {
+   border: solid 50px gray;
+   margin: 5px;
+   box-shadow: 0 0 30px blue;
+   background-color: #00fe00;
+
+}
+
+#pseudo:active {
+    background-color: green;
+    border: solid 5px black;
+}
 #div1 {
     background-color: #fe0000;
     border: solid 1px black;
@@ -59,5 +81,5 @@
     padding: 20px;
     border: 2px solid black;
     margin: 10px;
-    box-shadow: 10px blue;
+    box-shadow: 0 0 75px blue;
 }
